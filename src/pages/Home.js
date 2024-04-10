@@ -17,9 +17,12 @@ export default function Home() {
         styleInput={styles.input}
         txtplace="Digite a temperatura em C°"
         changeText={resultado}
+        keybrdType={"numeric"}
       />
       <Text>Em Fahrenheit:</Text>
-      <Text style={styles.resultado}>{celsius}</Text>
+      <View style={styles.resultado}>
+        <Text style={styles.txtResultado}> {`${celsius}°`}</Text>
+      </View>
     </View>
   );
 }

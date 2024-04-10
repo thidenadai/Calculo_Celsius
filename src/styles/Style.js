@@ -20,13 +20,17 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   resultado: {
-    height: 40,
+    height: 200,
     width: 200,
-    borderColor: "black",
-    borderWidth: 1,
+    borderColor: "red",
+    borderWidth: 5,
     margin: 10,
     borderRadius: 5,
     backgroundColor: "white",
-    textAlign: "center",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  txtResultado: {
+    fontSize: 20,
   },
 });
